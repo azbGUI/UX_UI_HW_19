@@ -1,0 +1,41 @@
+body {
+    max-width: 900px;
+    background: #C7979F;
+    color: #FFFFFF;
+    margin: 2em auto;
+  }
+  header {
+    align-items: center;
+    display: flex;
+  }
+
+  .logo {
+    margin: auto auto auto 0;
+  }  
+nav {
+  display: flex; 
+  position: -webkit-sticky; /* Safari */
+  align-items: center;
+  color: #FFFFFF;
+  position: sticky;
+  top: 0;
+}
+.nav li {
+  padding-right: 1em;
+  display: inline-block; 
+  list-style-type: none;
+}
+button {
+  border-width: 0px; 
+  background-color: #FFFFFF;
+  color: #595959;
+  border: none;
+  border-radius: 15px;
+  font-family: montserrat;
+   }
+   /* ABOVE THIS IS EVERYTHING INSIDE THE WORK HEADER*/
+
+   /* ABOVE THIS IS EVERYTHING INSIDE THE WORK HERO IMG*/
+
+    /* ABOVE THIS IS EVERYTHING INSIDE THE WORK FOOTER*/
+

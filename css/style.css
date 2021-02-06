@@ -1,0 +1,128 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1300px;
+    background: #C7979F;
+    color: #FFFFFF;
+    margin: 2em auto;
+  }
+
+  header {
+    align-items: center;
+    display: flex;
+  }
+
+  .logo {
+    margin: auto auto auto 0;
+  }  
+
+nav {
+  display: flex; 
+  position: -webkit-sticky; /* Safari */
+  align-items: center;
+  color: #FFFFFF;
+  position: sticky;
+  top: 0;
+}
+
+.nav li {
+  padding-right: 1em;
+  display: inline-block; 
+  list-style-type: none;
+}
+
+button {
+  border-width: 0px; 
+  background-color: #FFFFFF;
+  color: #595959;
+  border: none;
+  border-radius: 15px;
+  font-family: montserrat;
+   }
+
+  div {
+    border: thin solid #c7979f; 
+  }
+/* ABOVE THIS IS EVERYTHING INSIDE THE HEADER*/
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.heroImg li{ 
+  padding-right: 0em;
+  display: inline-block; 
+  list-style-type: none;
+  font-size: 33px;
+  vertical-align: middle;
+}
+
+.imgofme img {
+  max-width: 600px;
+  margin-right: 21px;
+  display: flex; 
+  align-content: center;
+}
+p {
+  max-width: 400px;
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 25px
+}
+div.allpara {
+  text-indent: 10%;
+}
+/* ABOVE THIS IS EVERYTHING INSIDE THE HERO IMG*/
+.myuxdesignskills {
+  font-size: 40px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* ABOVE THIS IS EVERYTHING INSIDE THE MY UX DESIGN SKILLS*/
+.lifeinphotographyImg { 
+  max-width: 100%;
+  height: auto;
+  font-size: 40px;
+}
+.lifeinphotographyImg { 
+  display: grid;
+  padding: 50px;
+}
+.lifeinphotographyImg {
+  font-size: 40px;
+}
+/* ABOVE THIS IS EVERYTHING INSIDE THE LIFE IN PHOTOS*/
+footer{ 
+  font-size: 40px;
+}
+/* ABOVE THIS IS EVERYTHING INSIDE THE FOOTER*/
+
+/* Your CSS styles for your grid template area here */
+
+/* THIS IS EVERYTHING INSIDE THE MOBILE MEDIA QUERY B*/
+#categorygrid {
+  margin: 0px 5%;
+  display: grid;  
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #C7979F;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+  }
+}
+
+
+

@@ -9,12 +9,12 @@ body {
     margin: 2em auto;
   }
 
-  header {
+header {
     align-items: center;
     display: flex;
   }
 
-  .logo {
+.logo {
     margin: auto auto auto 0;
   }  
 
@@ -26,13 +26,11 @@ nav {
   position: sticky;
   top: 0;
 }
-
 .nav li {
   padding-right: 1em;
   display: inline-block; 
   list-style-type: none;
 }
-
 button {
   border-width: 0px; 
   background-color: #FFFFFF;
@@ -113,6 +111,10 @@ div.allpara {
   font-size: 25px;
   text-align: right;
   text-indent: 50px;
+  list-style-type: none;
+}
+.flexcontainer li {
+  list-style-type: none;
 }
 /* ABOVE THIS IS EVERYTHING INSIDE THE MY UX DESIGN SKILLS*/
 
